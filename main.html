@@ -326,8 +326,9 @@
                 </div>
             </li>
         </ul>
-        <div class="container most_popular_container">
-            <div class="row">
+        <div id="carouselTeamControls" class="carousel team_c_w slide  m-auto" data-ride="carousel">
+            <div class="carousel-inner team_c_w  m-auto">
+              <div class="carousel-item active">
                 <div class="team_box col-sm p-0">
                     <div class="team_box_img w-100">
                         <img src="src/imagenes/IMAGE BACKGROUND CARD TEAM  (1).jpg" alt="">
@@ -341,6 +342,8 @@
                     </div>
                     <button type="button" class="btn team_box_button">Read More</button>
                 </div>
+              </div>
+              <div class="carousel-item">
                 <div class="team_box col-sm p-0">
                     <div class="team_box_img w-100">
                         <img src="src/imagenes/IMAGE BACKGROUND CARD TEAM  (1).jpg" alt="">
@@ -354,6 +357,8 @@
                     </div>
                     <button type="button" class="btn  team_box_button">Read More</button>
                 </div>
+              </div>
+              <div class="carousel-item">
                 <div class="team_box col-sm p-0">
                     <div class="team_box_img w-100">
                         <img src="src/imagenes/IMAGE BACKGROUND CARD TEAM  (1).jpg" alt="">
@@ -367,6 +372,8 @@
                     </div>
                     <button type="button" class="btn  team_box_button">Read More</button>
                 </div>
+              </div>
+              <div class="carousel-item">
                 <div class="team_box col-sm p-0">
                     <div class="team_box_img w-100">
                         <img src="src/imagenes/IMAGE BACKGROUND CARD TEAM  (1).jpg" alt="">
@@ -380,12 +387,115 @@
                     </div>
                     <button type="button" class="btn team_box_button">Read More</button>
                 </div>
+              </div>
             </div>
-        </div>
+            <a class="carousel-control-prev" href="#carouselTeamControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselTeamControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         <div class="button_team">
             <button type="button" class="btn team_box_button_view">View More</button>
         </div>
     </div> 
+    <div class="Reviews">
+        <div class="reviews_container">
+            <img src="src/imagenes/IMAGEN HERO.jpg" alt="">
+            <div class="carousel_cont">
+                <div id="carouselReviewIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner ">
+                      <div class="carousel-item review_item active">
+                        <img class="d-block w-100" src="src/imagenes/person_1.jpg" alt="First slide">
+                        <div class="carousel-caption d-none justif_play d-md-block">
+                            <button type="button" class="btn  button_play" data-toggle="modal" data-target="#reviewModal">
+                                <div class="play_cont">
+                                    <img src="src/imagenes/play-solid.svg" alt="">
+                                </div>
+                            </button>
+                            <h5>Jade Peña</h5>
+                          </div>
+                      </div>
+                      <div class="carousel-item review_item">
+                        <img class="d-block w-100" src="src/imagenes/person_2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none justif_play d-md-block">
+                            <button type="button" class="btn button_play" data-toggle="modal" data-target="#reviewModal">
+                                <div class="play_cont">
+                                    <img src="src/imagenes/play-solid.svg" alt="">
+                                </div>
+                            </button>
+                            <h5>Jade Peña</h5>
+                          </div>
+                      </div>
+                      <div class="carousel-item review_item">
+                        <img class="d-block w-100" src="src/imagenes/person_3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none justif_play d-md-block">
+                            <button type="button" class="btn button_play" data-toggle="modal" data-target="#reviewModal">
+                                <div class="play_cont">
+                                    <img src="src/imagenes/play-solid.svg" alt="">
+                                </div>
+                            </button>
+                            <h5>Jade Peña</h5>
+                          </div>
+                      </div>
+                      <div class="carousel-item review_item">
+                        <img class="d-block w-100" src="src/imagenes/person_4.jpg" alt="fourth slide">
+                        <div class="carousel-caption d-none justif_play d-md-block">
+                            <button type="button" class="btn button_play" data-toggle="modal" data-target="#reviewModal">
+                                <div class="play_cont">
+                                    <img src="src/imagenes/play-solid.svg" alt="">
+                                </div>
+                            </button>
+                            <h5>Jade Peña</h5>
+                          </div>
+                      </div>
+                      <div class="carousel-item review_item">
+                        <img class="d-block w-100" src="src/imagenes/person_5.jpg" alt="fifth slide">
+                        <div class="carousel-caption d-none justif_play d-md-block">
+                            <button type="button" class="btn button_play" data-toggle="modal" data-target="#reviewModal">
+                                <div class="play_cont">
+                                    <img src="src/imagenes/play-solid.svg" alt="">
+                                </div>
+                            </button>
+                            <h5>Jade Peña</h5>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="reviewModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="reviewModalLabel">Review Nro.1</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="src/Videos/review-1.mp4" frameborder="0"></iframe>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
     <div class="Footer" id="Contact_us">
         <div class="container">
             <div class="row">
@@ -442,7 +552,7 @@
                             <div class="icon_text_footer">
                                 <div class="address_img_footer">
                                     <a class="link_icon links_" href="https://www.google.com/maps" target="_blank">
-                                        <img src="src/imagenes/envelope-solid.svg" alt="address icon">
+                                        <img src="src/imagenes/location-dot-solid.svg" alt="address icon">
                                     </a>
                                 </div>
                                 <a class="link_icon links_" href="https://www.google.com/maps" target="_blank">address, United States</a>
